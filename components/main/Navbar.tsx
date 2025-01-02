@@ -23,7 +23,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin"
           />
           <span className='font-bold ml-[10px] hidden lg:block text-gray-300'>
-            Harsh Kaul
+            Utkarsh Kaul
           </span>
         </a>
 

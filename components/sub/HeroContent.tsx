@@ -13,7 +13,7 @@ const HeroContent: React.FC = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Harsh Kaul", "Bakchod ", "Harsh Kaul"];
+  const toRotate = ["Utkarsh Kaul", "Bakchod", "Utkarsh Kaul"];
   const period = 2000;
 
   useEffect(() => {
@@ -85,7 +85,7 @@ const HeroContent: React.FC = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          This is Harsh Kaul, and I&apos;m a Full Stack Developer focused on
+          This is Utkarsh Kaul, and I&apos;m a Full Stack Developer focused on
           building scalable, user-centric digital solutions. Explore my projects and
           skills to see how I turn complex ideas into efficient applications.
         </motion.p>
